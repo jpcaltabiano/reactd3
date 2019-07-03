@@ -1,8 +1,27 @@
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script src="https://d3-legend.susielu.com/d3-legend.min.js"></script>
+
 <html>
   <head>
+    <style>
+      div.tooltip { 
+        position: absolute;     
+        text-align: center;
+        min-width: 60px;     
+        width: auto;          
+        height: auto;         
+        padding: 2px;       
+        font-size: 85%;    
+        background: lightsteelblue; 
+        border: 0px;    
+        border-radius: 8px;     
+        pointer-events: none;     
+      }
+    </style>
     <title>React Parcel Micro App</title>
   </head>
   <body>
+    <input type='button' class='center_btn'></input>
     <div id="root"></div>
     <script src="./src/index.js"></script>
   </body>

@@ -1,5 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Emap from "./maps";
+import BaseMap from "./BaseMap";
 
-ReactDOM.render(<Emap />, document.getElementById("root"));
+ReactDOM.render(<BaseMap />, document.getElementById("root"));
